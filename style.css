@@ -16,7 +16,7 @@ body {
 }
 
 .img {
-    height: 350px;
+    width: 100%;
 }
 
 
@@ -24,6 +24,125 @@ body {
 
 .header-title {
     font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.header-text {
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    color: rgb(90, 90, 90);
+}
+
+
+/*  FORM */
+
+
+.form {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.email {
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 50px;
+    text-align: left;
+    border-top: 1px solid rgb(218, 218, 218);
+    border-left: 1px solid rgb(218, 218, 218);
+    border-right: 1px solid rgb(218, 218, 218);
+    border-bottom: 1px solid rgb(197, 197, 197);
+    border-radius: 40px;
+}
+
+input::placeholder {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+
+/* BUTTON */
+
+button {
+    cursor: pointer;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 40px;
+    border: none;
+    background-color: hsl(223, 87%, 63%);
+    transition: 0.2s;
+}
+
+button:hover {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 40px;
+    border: none;
+    background-color: hsl(223, 82%, 74%);
+}
+
+
+
+
+/* SOCIALS */
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    /* Center items horizontally */
+}
+
+.social-icons ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+
+.social-icons i {
+    color: hsl(223, 87%, 63%);
+    background-color: white;
+    /* Set the initial background color to lightblue */
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.social-icons i:hover {
+    background-color: hsl(223, 87%, 63%);
+    color: #FFF;
+
+    /* Change background color to white on hover */
+}
+
+
+
+
+/* FOOTER */
+
+.footer {
+    color: rgb(165, 165, 165);
+    font-size: 15px;
+
 }
