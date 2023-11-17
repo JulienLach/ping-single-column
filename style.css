@@ -64,6 +64,10 @@ input::placeholder {
     opacity: 0.7;
 }
 
+.error {
+    border-color: red;
+}
+
 
 /* BUTTON */
 
