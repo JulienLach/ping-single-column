@@ -222,6 +222,7 @@ ul {
         width: 85%;
     }
 
+    /* HEADER */
 
     .header-title {
         font-size: 20px;
@@ -234,6 +235,8 @@ ul {
 
 
     }
+
+    /* FORM */
 
     .form {
         display: flex;
