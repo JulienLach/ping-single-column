@@ -64,6 +64,26 @@ input::placeholder {
     opacity: 0.7;
 }
 
+
+#email-error-message {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-style: italic;
+    color: red;
+}
+
+#email-success-message {
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    color: green;
+}
+
 .error {
     border-color: red;
 }
@@ -221,6 +241,28 @@ ul {
         gap: 14px;
     }
 
+    #email-error-message {
+        position: absolute;
+        padding-top: 10px;
+        padding-left: 20px;
+        margin-bottom: 40px;
+        font-size: 14px;
+        font-style: italic;
+        color: red;
+    }
+
+    #email-success-message {
+        position: absolute;
+        padding-top: 10px;
+        padding-left: 20px;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: bold;
+        color: green;
+        left: -30px;
+    }
+
+
     button {
         cursor: pointer;
         display: flex;
@@ -234,6 +276,7 @@ ul {
         border: none;
         background-color: hsl(223, 87%, 63%);
         transition: 0.2s;
+        margin-top: 35px;
     }
 
 
